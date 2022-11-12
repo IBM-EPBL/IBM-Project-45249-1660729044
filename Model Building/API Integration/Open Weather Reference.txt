@@ -1,0 +1,12 @@
+API key:
+- Your API key is c3e4e18a42d55dc9ef082a750ba6fafd
+
+
+
+- Example of API call:
+https://api.openweathermap.org/data/2.5/weather?q=Delhi&APPID=c3e4e18a42d55dc9ef082a750ba6fafd&units=metric
+
+
+
+
+{"coord":{"lon":77.2167,"lat":28.6667},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50d"}],"base":"stations","main":{"temp":22.05,"feels_like":21.59,"temp_min":22.05,"temp_max":22.05,"pressure":1019,"humidity":49},"visibility":1300,"wind":{"speed":3.09,"deg":260},"clouds":{"all":0},"dt":1668231239,"sys":{"type":1,"id":9165,"country":"IN","sunrise":1668215476,"sunset":1668254360},"timezone":19800,"id":1273294,"name":"Delhi","cod":200}
