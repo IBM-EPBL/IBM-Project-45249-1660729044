@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WIND TURBINE ENERGY PREDICTION</title>
+    <style>
+        body{
+            background-image: url('Windmill.jpg');
+            background-size: 100%;
+        }
+    </style>
+    <style>
+        h1{text-align: center;}
+        h2{text-align: center;}
+        p{text-align: center;}
+    </style>
+  </head>
+  <body>
+    <div class="container">    
+      <div class="glass">      
+            <h1 class="text" >WIND TURBINE ENERGY PREDICTION</h1>
+            <h2 class="text">Using XGBoost Model</h2>
+            <br />
+            <form method="POST" action="/predict">
+                  <p class="text">Wind Speed</p>
+                  <h1><label><input type="text" id="ws" name="ws"></label></h1>
+                <p class="text">Wind Direction</p>
+                <h1><label><input type="text" id="wd" name="wd"></label></h1>
+                  <br />
+                  <br />
+                  <h1><button type="submit"  class="submit">Submit</button> </a></h1>
+                </form>
+              </div>
+          </div>
+        </body>   
+	
+
+            
